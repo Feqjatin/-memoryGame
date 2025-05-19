@@ -8,7 +8,7 @@ const emojis = ['🍎', '🍌', '🍇', '🍉', '🥑', '🍒', '🍍', '🍋', 
     const shuffledEmojis = [...emojis].sort(() => Math.random() - 0.5);
     const selectedEmojis = shuffledEmojis.slice(0, totalCards / 2);
    const cardEmojis = [...selectedEmojis, ...selectedEmojis].sort(() => Math.random() - 0.5);
-   // alert(cardEmojis);  
+   alert(cardEmojis);  
     // const selectedEmojis = emojis.slice(0, totalCards / 2);
     //const cardEmojis = [...selectedEmojis, ...selectedEmojis];
     return cardEmojis;                                             
